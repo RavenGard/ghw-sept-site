@@ -4,12 +4,11 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Chivo', sans-serif;
-  background: #A9DBC3;
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
 }
 
 .header-text {
   display: flex;
-  height: 100vh;
   justify-content: center;
   font-size:40px;
   color: whitesmoke;
@@ -25,12 +24,12 @@ html, body {
 .img-1 {
   display: flex;
   justify-content: center;
-  width: 400px;
+  width: 300px;
 }
 
 .body-text {
   display: flex;
-  color: green;
+  color: black;
 }
 
 .link-button {
@@ -39,7 +38,7 @@ html, body {
   font-family: 'Chivo', sans-serif;
   padding: 10px 15px;
   border-radius: 5px;
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  background-color: white;
 }
 
 .link-button:hover{
